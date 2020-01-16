@@ -1,0 +1,39 @@
+*{
+	font-family: coolvetica;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.header{
+	padding: 50px;
+}
+.header .title{
+	font-size: 50px;
+	width: 80%;
+	text-align: center;
+}
+.header .submit{
+	color: #ed145b;
+	font-size: 50px;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+}
+.box{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.box img{
+	width: 250px;
+	height: 250px;
+	border: 1px solid;
+}
+.box input{
+	width: 500px;
+	height: 100px;
+	font-size: 30px;
+}

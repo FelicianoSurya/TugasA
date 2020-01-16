@@ -1,0 +1,60 @@
+*{
+	font-family: coolvetica;
+	overflow: hidden;
+	outline: none;
+}
+
+html,body{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	max-width: 100%;
+}
+.body{
+	display: flex;
+	margin:0;
+	padding:0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.flex{
+	display: flex;
+}
+.right{
+	width: 80%;
+	background-color: #ebebeb;
+	height: 100%;
+}
+.right .order{
+	font-size: 40px;
+	color: #605252;
+	margin: 5px 30px 5px 30px;
+}
+.right .border{
+	background-color: white;
+	padding: 20px 30px;
+}
+.right .washing{
+	width: 80px;
+	height: 80px;
+}
+.jarak{
+	margin-left: 20px;
+}
+.right .jarak .text1{
+	font-size: 20px;
+}
+.right .jarak .text2{
+	font-size: 13px;
+	color: #605252;
+}
+.right .jarak .text3{
+	font-size: 25px;
+	color: #6dcff6;
+	margin-top: 5px;
+}
+
+.h{
+	background:#5ba9cd;
+}

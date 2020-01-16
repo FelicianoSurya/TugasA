@@ -1,0 +1,178 @@
+*{
+	font-family: coolvetica;
+}
+.isi{
+	height: 2100px;
+}
+.body{
+	padding: 30px 50px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .border{
+	background-color: #605252;
+	border-radius: 50%;
+	padding: 20px;
+}
+.header .border img{
+	width: 70px;
+	height: 70px;
+}
+.hr{
+	border: 1px solid;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.flex1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.body .flex1 .text{
+	font-size: 50px;
+	color: black;
+}
+.body .flex1 .flex .img{
+	width: 70px;
+	height: 70px;
+}
+.body .flex1 .flex .waktu{
+	font-size: 50px;
+	color: black;
+	margin-left: 15px;
+}
+.box .hr2{
+	border: 1px solid;
+	margin-top: 1px;
+}
+.box .flex .box-in{
+	background-color: #ebebeb;
+	width: 40%;
+	height: 110px;
+	padding: 10px 50px;
+	margin-top: -15px;
+}
+.box .flex .box-in .text{
+	font-size: 50px;
+}
+.box .flex .box-in2{
+	padding: 0px 50px;
+	color: #605252;
+	font-size: 50px;
+}
+.body1{
+	padding: 30px 50px;
+	line-height: 50px;
+}
+.top{
+	margin-top: 60px;
+}
+.body1 .teks{
+	color: #605252;
+	font-size: 50px;
+}
+.body2{
+	padding: 20px 50px;
+	line-height: 40px;
+}
+.body2 .flex1 .text3{
+	font-size: 50px;
+}
+.body2 .flex1 .flex .star{
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+.body2 .flex1 .harga{
+	color: #ed145b;
+	font-size: 50px;
+	margin: 0;
+	margin-left: 10px;
+}
+.body2 .flex1 .teks{
+	color: #605252;
+	font-size: 50px;
+	margin: 0;
+	margin-left: 10px;
+}
+.body2 .flex1 .teks2{
+	color: #ed145b;
+	font-size: 50px;
+}
+.flex3{
+	display: flex;
+}
+.body2 .flex1 .flex3 .img1{
+	width: 100px;
+	height: 100px;
+	margin-right: 25px;
+}
+.body2 .flex1 .flex3 .text4{
+	font-size: 45px;
+}
+.body2 .flex1 .flex3 .star1{
+	width: 35px;
+	height: 35px;
+	margin-right: 5px;
+}
+.body2 .flex1 .flex3 .tanggal{
+	font-size: 40px;
+	color: #605252;
+	margin-top: 20px;
+}
+.body2 .flex1 .flex3 .komentar{
+	font-size: 40px;
+	margin-top: 20px;
+}
+.body2 .flex1 .img2{
+	width: 80px;
+	height: 80px;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+	width: 100%;
+}
+.footer .footer-box{
+	background-color: #6dcff6;
+	width: 50%;
+	height: 170px;
+	padding: 10px 30px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.footer .footer-box .image{
+	width: 110px;
+	height: 100px;
+}
+.footer .footer-box .teks{
+	font-size: 40px;
+	color: white;
+}
+.footer .footer-box .garis{
+	background-color: grey;
+	width: 3px;
+	height: 130px;
+}
+.footer .footer-box1{
+	background-color: #ed145b;
+	width: 50%;
+	height: 170px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer .footer-box1 .teks{
+	color: white;
+	font-size: 50px;
+}

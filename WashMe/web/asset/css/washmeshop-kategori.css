@@ -1,0 +1,138 @@
+*{
+	font-family: coolvetica;
+	outline: none;
+	overflow: hidden;
+}
+
+html,body{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	max-width: 100%;
+}
+
+.body{
+	display: flex;
+	margin:0;
+	padding:0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.search{
+	display: flex;
+}
+.search-left{
+	width: 98%;
+	display: flex;
+}
+.search-left .img-search{
+	width: 25px;
+}
+#search{
+	width: 100%;
+	padding-left:10px;
+	font-size: 20px;
+}
+.keranjang{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+.flex{
+	display: flex;
+}
+.box-right{
+	width: 80%;
+	padding: 60px 70px 0px 20px;
+	overflow-y: scroll;
+	background-color: #ebebeb;
+	padding-left:50px;
+}
+.box-right .title{
+	font-size: 30px;
+	font-weight: bold;
+}
+.box-right .flex .border1{
+	border: 1px solid black;
+	background-color: white;
+	width: 100%;
+	padding: 6px 15px;
+	font-size: 18px;
+	color: #605252;
+}
+.box-right .flex .border2{
+	border: 1px solid;
+	background-color: #ebebeb;
+	padding: 7px 15px;
+}
+.box-right .flex .border2 .img{
+	width: 25px;
+	height: 25px;
+}
+.box-right .flex .img2{
+	width: 45px;
+	height: 45px;
+	margin-left: 20px;
+}
+.background-img{
+	background-image: url("../images/laundry4.png");
+	margin-top: 30px;
+	padding: 20px;
+}
+.select{
+	color: #605252;
+	font-size: 20px;
+	padding: 2px 5px;
+}
+.background-img .flex .box2{
+	background-color: white;
+	width: 160px;
+	height: 120px;
+	cursor: pointer;
+	margin: 20px 0px 0px 20px;
+}
+.background-img .flex .box2 .img{
+	width: 80px;
+	height: 60px;
+	margin: 20px 20px 0px 40px;
+}
+.background-img .flex .box2 .text{
+	color: #605252;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 5px;
+}
+.star{
+	width: 20px;
+	height: 20px;
+}
+.box-right .iron{
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.box-right .background-in{
+	background-color: white;
+	padding: 10px;
+}
+.box-right .background-in .img{
+	width: 100px;
+	height: 100px;
+}
+.box-right .background-in .border-bot .text3{
+	font-size: 15px;
+	color: black;
+}
+.box-right .background-in .border-bot .harga{
+	color: #ed145b;
+	font-weight: bold;
+}
+.box-right .background-in .border-bot{
+	width: 150px;
+	padding: 10px;
+	cursor: pointer;
+}
+.box-right .background-in .border-bot .text4{
+	color: #605252;
+}

@@ -1,0 +1,93 @@
+*{
+	font-family: coolvetica;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.flex-mid{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.flex-between{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+.header{
+	padding: 30px 40px;
+}
+.header .arrow{
+	width: 60px;
+	height: 60px;
+}
+.header .title{
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	color: #605252;
+}
+.box{
+	padding: 40px 60px;
+}
+.hr{
+	border: 1px solid;
+}
+.box .img{
+	width: 120px;
+	height: 120px;
+}
+.box .box-in{
+	width: 100%;
+	margin-left: 30px;
+	line-height: 40px;
+}
+.box .box-in .text{
+	font-size: 50px;
+}
+.box .box-in .text1{
+	font-size: 40px;
+	color: #a1a1a1;
+}
+.box .star{
+	width: 100px;
+	height: 100px;
+	margin: 0px 20px;
+}
+.box .img2{
+	width: 160px;
+	height: 160px;
+}
+.box .box-in .text2{
+	font-size: 50px;
+	color: #a1a1a1;
+}
+.box .title2{
+	font-size: 50px;
+}
+.box .box-in2{
+	width: 100%;
+	margin-top: 30px;
+	font-size: 40px;
+}
+.box .box-in2 .img3{
+	width: 90px;
+	height: 280px;
+}
+.top{
+	margin-top: 40px;
+}
+.box .box-in3{
+	margin-top: 20px;
+	color: #a1a1a1;
+	font-size: 40px;
+	line-height: 40px;
+}
+.box1{
+	padding: 60px;
+	color: #a1a1a1;
+	font-size: 50px;
+}

@@ -1,0 +1,36 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 20px 40px;
+	display: flex;
+	align-items: center;
+}
+.header .img{
+	width: 80px;
+	height: 80px;
+}
+.header .title{
+	font-size: 60px;
+	width: 80%;
+	text-align: center;
+}
+.hr{
+	border: 1px solid;
+}
+.body{
+	padding: 20px 50px;
+	line-height: 60px;
+}
+.body .flex1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.body .flex1 .text{
+	font-size: 50px;
+}
+.body .flex1 .img{
+	width: 100px;
+	height: 100px;
+}

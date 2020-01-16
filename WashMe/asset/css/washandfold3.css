@@ -1,0 +1,163 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: coolvetica;
+	outline: none;
+}
+.container-fluid-fullscreen{
+	width: 100%;
+	height: 100%;
+}
+html,body{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-bottom:20px;
+}
+
+.header .topic-top{
+	width: 100%;
+	height: 100%;
+}
+.header .topic-top header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding:30px;
+}
+.topic-top header .logo img{
+	width: 50px;
+	height: 65px;
+}
+header .list{
+	width: 90%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.list .geser{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.list .geser h1{
+	font-size: 50px;
+}
+.content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+	padding:20px;
+}
+.content .content-in{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.content-in .kotak-besar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.content-in .kotak-besar p{
+	padding:5px;
+	padding-left:20px;
+	margin:0;
+}
+.content-in a{
+	text-decoration: none;
+	color: black;
+}
+.content-in .up{
+	margin-top: 20px;
+}
+.content-in .kotak-kiri{
+	display: flex;
+	flex-direction: column;
+}
+.content-in .kotak-besar .kotak-kiri img{
+	width: 310px;
+	height: 310px;
+}
+.content-in .kotak-besar .kotak-kanan{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.content-in .kotak-besar .kotak-kanan .teks1{
+	font-size: 55px;
+}
+.content-in .kotak-besar .kotak-kanan .naik{
+	display: flex;
+	align-items: center;
+	color:#605252;
+}
+.content-in .kotak-besar .kotak-kanan .naikk{
+	display: flex;
+	align-items: center;
+	color:#605252;
+	margin-top:20px;
+}
+.content-in .kotak-besar .kotak-kanan img{
+	width: 60px;
+	height: 60px;
+	margin-right: 5px;
+}
+.content-in .kotak-besar .kotak-kanan span{
+	font-size: 45px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.search{
+	border: 1px solid lightgrey;
+	background-color: whitesmoke;
+	padding: 5px 30px;
+	border-radius:20px;
+	padding:20px;
+	padding-left: 50px;
+	display: flex;
+	width: 90%;
+	align-items: center;
+	margin-left:40px;
+	margin-bottom:40px;
+}
+#search{
+	background: transparent;
+	padding-left:40px;
+}
+.search .img3{
+	width: 50px;
+}
+.search .text4{
+	border: none;
+	width: 100%;
+	font-size: 40px;
+	margin-left: 10px;
+	outline: none;
+}
+.teks{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.kota{
+	font-size: 30px;
+	padding-right:30px !important;
+}

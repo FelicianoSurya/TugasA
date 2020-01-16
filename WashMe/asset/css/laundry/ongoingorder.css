@@ -1,0 +1,121 @@
+*{
+	font-family: coolvetica;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header{
+	padding: 30px 50px;
+	display: flex;
+	align-items: center;
+}
+.header .img{
+	width: 100px;
+	height: 100px;
+}
+.header .head{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	font-size: 60px;
+}
+.content{
+	padding: 30px 50px;
+}
+.content .box{
+	border: 1px solid;
+	border-radius: 20px;
+	width: 48%;
+	padding: 30px;
+}
+.content .box .button{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.content .box .button button{
+	background-color: #f16a96;
+	font-size: 50px;
+	color: white;
+	border: none;
+	border-radius: 30px;
+	padding: 0px 40px;
+}
+.content .box .box-in{
+	margin-top: 50px;
+	text-align: center;
+}
+.content .box .box-in .img{
+	width: 150px;
+	height: 150px;
+}
+.content .box .box-in .text{
+	color: #a1a1a1;
+	font-size: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 40px;
+	margin-top: 30px;
+}
+.content .box .box-in .button1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content .box .box-in .button1 button{
+	background-color: #6dcff6;
+	padding: 10px 40px;
+	align-items: center;
+	display: flex;
+	border-radius: 25px;
+	border: none;
+	width: 80%;
+	margin-top: 20px;
+}
+.content .box .box-in .button1 img{
+	width: 80px;
+	height: 80px;
+}
+.content .box .box-in .button1 p{
+	color: white;
+	font-size: 50px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+.footer{
+	width: 100%;
+	background-color: white;
+	box-shadow: 5px 0px 10px 2px;
+	text-align: center;
+	display: flex;
+	padding:20px;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+}
+.box4{
+	padding:10px;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.box4 .img2{
+	width: 100px;
+	height: 100px;
+}
+.box4 .text{
+	color:  #6dcff6;
+	font-size: 35px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
+	font-size: 35px;
+	margin-top: 5px;
+}

@@ -1,0 +1,122 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 20px 40px;
+	display: flex;
+	align-items: center;
+}
+.header img{
+	width: 70px;
+	height: 70px;
+}
+.header .atas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size: 60px;
+	color: #605252;
+}
+.body{
+	padding: 10px 50px;
+}
+.body .text1{
+	color: #605252;
+	font-size: 55px;
+}
+.body .select{
+	background-color: #ebebeb;
+	font-size: 50px;
+	width: 100%;
+	padding: 10px 30px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.body .text2{
+	color: #605252;
+	font-size: 55px;
+	margin-top: 40px;
+}
+.body .box{
+	display: flex;
+	align-items: center;
+	font-size: 50px;
+	color: black;
+}
+.body .box .time{
+	background-color: #ebebeb;
+	width: 25%;
+	padding: 10px 30px;
+	border-radius: 20px;
+	margin-top: 10px;
+	text-align: center;
+}
+.body .box .strip{
+	background-color: black;
+	width: 40px;
+	height: 8px;
+	margin: 0px 30px;
+}
+.body .box1{
+	display: flex;
+	align-items: center;
+	font-size: 50px;
+	color: black;
+	margin-top: 40px;
+}
+.body .box1 .strip1{
+	margin: 0px 10px;
+}
+.body .box1 .text{
+	font-size: 50px;
+	color: #a1a1a1;
+}
+.body .box1 img{
+	width: 70px;
+	height: 70px;
+}
+.body .box1 .logo{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 76%;
+}
+.body .hr{
+	border: 3px solid #6dcff6;
+	width: 100%;
+}
+.body .box3{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+.body .box3 .text{
+	font-size: 50px;
+	color: #a1a1a1;
+}
+.body .box3 img{
+	width: 70px;
+	height: 70px;
+}
+.body .box3 .logo{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 76%;
+}
+.body .box4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+}
+.box4 .button{
+	border-radius: 50%;
+	background-color: #6dcff6;
+	font-size: 55px;
+	width: 200px;
+	height: 200px;display: flex;
+	justify-content: center;
+	align-items: center;
+}

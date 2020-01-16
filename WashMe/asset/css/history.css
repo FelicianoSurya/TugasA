@@ -1,0 +1,54 @@
+*{
+	font-family: coolvetica;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.header{
+	padding: 20px 30px;
+}
+.header .arrow{
+	width: 80px;
+	height: 80px;
+}
+.header .title{
+	font-size: 70px;
+	margin-left: 250px;
+	color: #605252;
+	font-weight: bold;
+}
+.body{
+	padding: 0px 50px 20px 50px;
+	margin-top: -50px;
+}
+.jarak{
+	margin-top: 0px;
+}
+.body .img{
+	width: 200px;
+	height: 230px;
+}
+.body .text{
+	color: #6dcff6;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.body .text1{
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.body .text2{
+	color: #605252;
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.body .text3{
+	color: #ed145b;
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 20px;
+}

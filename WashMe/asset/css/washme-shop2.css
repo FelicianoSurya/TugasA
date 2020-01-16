@@ -1,0 +1,44 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 30px 50px 0px 50px;
+	display: flex;
+	align-items: center;
+}
+.header .img{
+	width: 70px;
+	height: 70px;
+}
+.header .header-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+.header .header-title .title{
+	font-size: 60px;
+}
+.body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1200px;
+	text-align: center;
+}
+.body .text{
+	color: #605252;
+	font-size: 50px;
+	margin-top: 10px;
+}
+.body .button{
+	background-color: #ed145b;
+	color: white;
+	padding: 10px 40px;
+	border-radius: 25px;
+	margin-top: 25px;
+	font-size: 45px;
+}
+.body .button a{
+	color: white;
+}

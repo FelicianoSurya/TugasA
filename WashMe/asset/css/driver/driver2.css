@@ -1,0 +1,125 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 30px 50px;
+	display: flex;
+	align-items: center;
+}
+.header img{
+	width: 80px;
+	height: 100px;
+}
+.header p{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	font-size: 60px;
+}
+.box{
+	padding: 20px 0px;
+	text-align: center;
+}
+.box p{
+	font-size: 50px;
+}
+.box img{
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+}
+.box2{
+	padding: 20px 60px;
+	margin-top: 40px;
+	line-height: 45px;
+}
+.box2 .flex{
+	display: flex;
+	align-items: center;
+}
+.box2 .flex .text1{
+	font-size: 45px;
+	width: 20%;
+}
+.box2 .flex .text2{
+	width: 5%;
+	font-size: 45px
+}
+.box2 .flex .text3{
+	color: #a1a1a1;
+	font-size: 45px;
+	width: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.box2 .box-in{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+}
+.box2 .box-in .border1{
+	border: 1px solid;
+	padding: 20px 30px;
+	width: 48%;
+	text-align: center;
+	border-radius: 30px;
+}
+.box2 .box-in .border1 .title{
+	font-size: 50px;
+	color: #6dcff6;
+}
+.box2 .box-in .border1 .border-in{
+	margin-top: 40px;
+	line-height: 40px;
+}
+.box2 .box-in .border1 .border-in .text1{
+	font-size: 45px;
+}
+.box2 .box-in .border1 .border-in .text2{
+	font-size: 40px;
+	color: #a1a1a1;
+}
+.box2 .teks{
+	font-size: 50px;
+	color: #6dcff6;	
+}
+.box2 .content{
+	margin-top: 50px;
+	line-height: 45px;
+}
+.box2 .content .content-in{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.box2 .content .content-in p{
+	font-size: 50px;
+}
+.box2 .box-in1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.box2 .box-in1 button{
+	background-color: #ed145b;
+	font-size: 45px;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 30px;
+	cursor: pointer;
+
+}
+.box3{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 60px;
+	padding: 20px 60px;
+	background-color: #6dcff6;
+	border-radius: 35px;
+	margin-top: -20px;
+}

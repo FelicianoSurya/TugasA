@@ -1,0 +1,112 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 30px 50px 0px 50px;
+	display: flex;
+	align-items: center;
+}
+.header .img{
+	width: 70px;
+	height: 70px;
+}
+.header .header-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+.header .header-title .title{
+	font-size: 60px;
+}
+.hr{
+	border: 1px solid black;
+	width: 100%;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.body{
+	padding: 30px 30px 0px 50px;
+}
+.body .flex .img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.body .flex .text{
+	font-size: 50px;
+	margin-left: 20px;
+}
+.body .flex .img1{
+	width: 200px;
+	height: 200px;
+}
+.top{
+	margin-top: 70px;
+}
+.body .flex .left{
+	margin-left: 30px;
+}
+.body .flex .left .text2{
+	font-size: 45px;
+}
+.body .flex .left .jumlah{
+	width: 30%;
+	font-size: 40px;
+	border: 1px solid;
+}
+.body .flex .left .harga{
+	font-size: 45px;
+	color: #ed145b;
+}
+.bawah{
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+}
+.bawah .footer{
+	padding: 30px 50px;
+	margin-top: -30px;
+}
+.bawah .footer .flex .img{
+	width: 150px;
+	height: 130px;
+}
+.bawah .footer .flex .text{
+	font-size: 50px;
+	margin: 0px 20px;
+}
+.bawah .footer .flex .kode{
+	font-size: 45px;
+	background-color: #ebebeb;
+	padding: 0px 60px;
+	border-radius: 50px;
+	border: none;
+	width: 100%;
+	color: #605252;
+}
+.bawah .footer .flex-end{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.bawah .footer .flex-end .total{
+	font-size: 50px;
+	margin: 0;
+}
+.bawah .footer .flex-end .harga{
+	color: #ed145b;
+	font-size: 50px;
+	margin: 0px 15px;
+}
+.bawah .footer .flex-end .button{
+	background-color: #ed145b;
+	border: none;
+	border-radius: 25px;
+	color: white;
+	padding: 10px 30px;
+	font-size: 50px;
+}

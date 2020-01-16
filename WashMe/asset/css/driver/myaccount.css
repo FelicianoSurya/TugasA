@@ -1,0 +1,229 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: coolvetica;
+}
+.container-fluid-fullscreen{
+	width: 100%;
+	height: 100%;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 0px;
+}
+.header .topic-top header{
+	width: 100%;
+	height: 100%;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: -10px;
+}
+.hr1{
+	width: 100%;
+	border: 1px solid black;
+}
+.title{
+	font-size: 60px;
+}
+.content a{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: black;
+}
+.content a:hover{
+	color: black;
+	text-decoration: none;
+}
+.content .content-in{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content-in{
+	padding:20px;
+	margin-bottom: -15px;
+}
+.user{
+	font-size: 50px;
+}
+.name{
+	margin:0;
+}
+.email{
+	font-size: 35px;
+	margin:0;
+}
+.phone{
+	font-size: 35px;
+	margin:0;
+}
+.content .content-in .edit{
+	margin-top: -55px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.content .content-in .edit button{
+	width: 100%;
+	outline: none;
+	height: 30px;
+	border: 1px solid #ed145b;
+	font-size: 15px;
+	color: white;
+	border-radius: 10px;
+	background-color: #ed145b;
+	padding: 0px 15px 0px 15px;
+}
+.content .content-in1{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.content-in1{
+	padding: 0px 25px 0px 30px;
+	margin-bottom: -15px;
+}
+.content .content-in1 .user p{
+	margin-top: -5px;
+	font-size: 40px;
+}
+#profile{
+	padding:20px;
+	font-size:40px;
+	outline: none;
+	color: white;
+	border-radius: 10px;
+	background-color: #ed145b;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.picture img{
+	width: 150px;
+}
+.content .content-in1 .edit{
+	margin-top: -10px;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content .content-in1 .edit button{
+	width: 70%;
+	outline: none;
+	border: 1px solid #0c354f;
+	font-size: 13px;
+	color: white;
+	border-radius: 10px;
+	background-color: #0c354f;
+	padding: 10px 15px 10px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.content .content-in1 .edit button img{
+	width: 60px;
+	outline: none;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 500px;
+	margin-top: 15px;
+}
+.content .content-in1 .edit button p{
+	display: flex;
+	font-size: 50px;
+	outline: none;
+	justify-content: center;
+	align-items: center;
+	margin-top: -60px;
+	margin-left: 60px;
+}
+.content .content-in3{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom:250px;
+}
+.content-in3{
+	padding: 0px 25px 0px 30px;
+}
+.content .content-in3 .logout{
+	margin-top:800px;
+	display: flex;
+	flex-direction: column;
+}
+.content .content-in3 .logout button{
+	width: 100%;
+	outline: none;
+	border: 1px solid #ed145b;
+	font-size: 50px;
+	color: white;
+	border-radius: 10px;
+	background-color: #ed145b;
+	padding: 10px 50px 10px 50px;
+	margin-bottom: 20px;
+}
+.hr2{
+	border: 0.9px solid darkgrey;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer{
+	width: 100%;
+	background-color: white;
+	box-shadow: 5px 0px 10px 2px;
+	text-align: center;
+	display: flex;
+	padding:20px;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+}
+.box4{
+	padding:10px;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.box4 .img2{
+	width: 100px;
+	height: 100px;
+}
+.box4 .text{
+	color:  #6dcff6;
+	font-size: 35px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
+	font-size: 35px;
+	margin-top: 5px;
+}

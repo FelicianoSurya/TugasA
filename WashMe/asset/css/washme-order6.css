@@ -1,0 +1,92 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 20px 50px;
+	display: flex;
+	align-items: center;
+}
+.header img{
+	width: 70px;
+	height: 70px;
+}
+.header .atas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	font-size: 60px;
+	color: #605252;
+}
+.body{
+	padding: 10px 70px;
+}
+.body .box{
+	margin-top: 50px;
+	line-height: 50px;
+}
+.body .box .text1{
+	color: #6dcff6;
+	font-size: 55px;
+}
+.body .box .text2{
+	font-size: 55px;
+}
+.body .box .text3{
+	font-size: 50px;
+}
+.hr{
+	border: 3px solid #6dcff6;
+	width: 100%;
+}
+.box .box-in{
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.box .box-in .harga{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 100%;
+}
+.box .box-in .text4{
+	width: 100%;
+}
+.box .img{
+	width: 70px;
+	height: 70px;
+}
+.box .box-in .kiri{
+	margin-left: 30px;
+}
+.bawah{
+	margin-bottom: 50px;
+}
+.box .box-in1{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.box .box-in1 .text5{
+	font-size: 65px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 70px;
+}
+.center .button{
+	border-radius: 50%;
+	background-color: #6dcff6;
+	font-size: 55px;
+	width: 200px;
+	height: 200px;display: flex;
+	justify-content: center;
+	align-items: center;
+}

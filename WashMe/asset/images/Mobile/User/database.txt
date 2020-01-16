@@ -1,0 +1,45 @@
+order2(orders)
+-id
+-username
+-start time
+-end time
+-home
+-office
+-campus
+-others
+-note
+
+order3(basic laundry)
+-id
+-username
+-wash&fold
+-wash&iron
+-total
+
+order4(dry cleaning)
+-id
+-username
+-wash&Fold
+-total
+
+order5(delivery)
+-id
+-username
+-delivery date
+-start time
+-end time
+-home
+-office
+-campus
+-others
+-note
+
+order6(confirmation)
+-id
+-username
+-date
+-time
+-place
+-name(ambil dari table laundrys)
+-laundry detil
+-total

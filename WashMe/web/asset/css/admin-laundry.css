@@ -1,0 +1,87 @@
+*{
+	font-family: coolvetica;
+	overflow: hidden;
+	outline: none;
+}
+
+html,body{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	max-width: 100%;
+}
+
+.body{
+	display: flex;
+	margin:0;
+	padding:0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.header{
+	background:#120f2b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-kiri{
+	color:white;
+	font-size: 30px;
+	width: 20%;
+	background:#5ba9cd;
+}
+
+.header-kiri p{
+	margin:0;
+	padding:10px;
+	text-align:  center;
+}
+
+.header-right{
+	width: 80%;
+	text-align: right;
+	padding: 10px;
+	padding-right: 30px;
+	font-size: 25px;
+}
+
+.header-right a{
+	color:white;
+	list-style-type:none;
+}
+.header-right a:hover{
+	text-decoration: none;
+	color:whitesmoke;
+}
+
+.right{
+	background:whitesmoke;
+	width: 80%;
+	padding:20px;
+	padding-top:40px;
+}
+.body-right{
+	display: flex;
+	justify-content: center;
+	background: white;
+	padding: 20px;
+	border:1px solid black;
+}
+
+.body-right table{
+	border: solid #ebebeb;
+}
+.body-right table tr th{
+	width: 200px;
+	text-align: center;
+}
+.body-right table tr td{
+	width: 200px;
+	text-align: center;
+}
+
+.laundry{
+	background:#5ba9cd;
+}

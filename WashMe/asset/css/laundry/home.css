@@ -1,0 +1,220 @@
+*{
+	font-family: coolvetica;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.flex1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.flex2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.header{
+	background-image: url("../../images/laundry-keren1.png");
+	padding: 60px 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.header .img{
+	width: 230px;
+	height: 230px;
+	margin-top: 20px;
+}
+.header .border1{
+	margin: 0px 20px;
+}
+.header .border1 .text{
+	font-size: 50px;
+	color: white;
+}
+.header .border1 .text1{
+	font-size: 40px;
+	color: white;
+	margin: 0;
+}
+.header .border1 .flex .star{
+	width: 50px;
+	height: 50px;
+	margin: 0px 5px;
+}
+.header .border2{
+	text-align: center;
+	width: 30%;
+	line-height: 50px;
+}
+.header .border2 .text{
+	font-size: 45px;
+	color: white;
+}
+.header .border2 .text1{
+	font-size: 45px;
+	color: #6dcff6;
+}
+.header .border2 .flex .open{
+	background-color: #6dcff6;
+	width: 50%;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+.header .border2 .flex .closed{
+	width: 50%;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	background-color: white;
+}
+.header .border2 .box{
+	background-color: lightgrey;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+.header .border2 .box .contact{
+	font-size: 35px;
+	color: white;
+}
+.header .border2 .box .flex1 .sosmed{
+	width: 60px;
+	height: 60px;
+	margin: 0px 10px;
+}
+.body{
+	padding: 0px 40px;
+	height: 1600px;
+}
+.body .box{
+	margin: 30px 0px;
+	width: 100%;
+}
+.body .box .text{
+	color: #605252;
+	font-size: 60px;
+}
+.body .box .box-in{
+	border: 1px solid;
+	padding: 30px;
+	display: flex;
+	align-items: center;
+}
+.body .box .box-in .img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.body .box .box-in .flex2 .text2{
+	font-size: 50px;
+	color: #605252;
+}
+.body .box .box-in .flex2 .button{
+	background-color: #ed145b;
+	border: none;
+	color: white;
+	padding: 0px 50px;
+	border-radius: 50px;
+	font-size: 40px;
+}
+.left{
+	width: 100%;
+	margin-left:30px;
+}
+.body .box .box-in .input{
+	background-color: #ebebeb;
+	font-size: 35px;
+	color: #605252;
+	padding: 10px 40px;
+	border-radius: 60px;
+	border: none;
+	width: 100%;
+}
+.box2{
+	border: 1px solid;
+	padding: 30px;
+	display: flex;
+	margin-top: 40px;
+}
+.box2 .img{
+	width: 150px;
+	height: 150px;
+}
+.box2 .content{
+	margin-left: 30px;
+}
+.box2 .content .nama{
+	font-size: 50px;
+	color: #605252;
+	line-height: 40px;
+	margin-top: 15px;
+}
+.box2 .content .komentar{
+	font-size: 40px;
+	margin: 40px 0px;
+	line-height: 40px;
+}
+.box2 .content .flex .jam{
+	font-size: 40px;
+	color: #605252;
+	margin: 0;
+}
+.box2 .content .flex .like{
+	display: flex;
+	align-items: center;
+	margin: 0px 70px;
+}
+.box2 .content .flex .like .jlh{
+	font-size: 40px;
+	color: #605252;
+	margin: 0;
+}
+.box2 .content .flex .like img{
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+.box2 .content .flex .reply{
+	color: #605252;
+	font-size: 40px;
+}
+.top{
+	margin-top: 80px;
+}
+.footer{
+	width: 100%;
+	background-color: white;
+	box-shadow: 5px 0px 10px 2px;
+	text-align: center;
+	display: flex;
+	padding:20px;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.box4 .img2{
+	width: 100px;
+	height: 100px;
+}
+.box4{
+	width: 100%;
+	margin: 20px 30px;
+}
+.box4 .text{
+	color:  #6dcff6;
+	font-size: 35px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
+	font-size: 35px;
+	margin-top: 5px;
+}

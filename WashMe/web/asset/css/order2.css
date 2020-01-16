@@ -1,0 +1,324 @@
+html,body{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	max-width: 100%;
+	overflow-y: hidden;
+}
+
+.body{
+	display: flex;
+	margin:0;
+	padding:0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.right{
+	width:80%;
+	display: flex;
+	flex-direction: column;
+	padding:30px;
+	overflow-y:scroll;
+	background: whitesmoke;
+}
+
+.right .top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right .top .icon{
+	width: 5%;
+	margin-top: -600px;
+}
+
+.right .top .icon img{
+	width: 35px;
+	height: 35px;
+}
+
+.right .top .topic{
+	width: 95%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right .top .topic .topic-in{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right .top .topic .topic-in h1{
+	margin:0;
+	font-size: 35px;
+	color: #0c354f;
+}
+
+.right .top .topic .topic-in img{
+	margin-top: -5px;
+	margin-left: 10px;
+	width: 35px;
+	height: 35px;
+}
+
+.right .top .topic .topic-in .topic-big{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.topic-in .topic-kiri{
+	background-color: white;
+	border-radius: 15px;
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.topic-in .topic-kiri .title{
+	text-align: center;
+	padding: 20px 30px 0px 30px;
+}
+
+.topic-in .topic-kiri .content{
+	padding: 0px 25px 20px 25px;
+}
+
+.topic-in .topic-kiri .content .form-in{
+	display: flex;
+	justify-content: space-between;
+}
+
+.topic-in .topic-kiri .content .hr1{
+	border: 1px solid #21a7dd;
+}
+
+.topic-in .topic-kiri .content .form-in .kiri p{
+	color: lightgrey;
+}
+
+.topic-in .topic-kiri .content .form-in .kanan{
+	display: flex;
+	justify-content: space-between;
+}
+
+.topic-in .topic-kiri .content .form-in .kanan .img{
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.topic-in .topic-kiri .content .form-in .kanan .img img{
+	width: 25px;
+	height: 25px;
+}
+
+.topic-in .topic-kiri .content .form-in .kanan .center{
+	text-align: center;
+	width: 100%;
+}
+
+.topic-in .topic-kiri .content .form-in .kanan p{
+	color: lightgrey;
+}
+
+.topic-in .topic-kiri .content hr{
+	margin-top: -5px;
+	border: 1px solid blue;
+}
+
+.topic-in .topic-kiri .content .content-in{
+	display: flex;
+	justify-content: space-between;
+}
+
+.topic-in .topic-kiri .content .content-in .kgimg{
+	width: 30%;
+	padding-top: 13px;
+}
+
+.topic-in .topic-kiri .content .content-in .kgimg img{
+	width: 90px;
+	height: 90px;
+}
+
+.topic-in .topic-kiri .content .content-in .text{
+	width: 70%;
+}
+
+.topic-in .topic-kiri .content .content-in .text p{
+	color: lightgrey;
+}
+
+.topic-in .topic-kiri .content .text-in{
+	font-weight: bold;
+}
+
+.topic-in .topic-kiri .content .last{
+	border: 1px solid #21a7dd;
+	width: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-left: 300px;
+	border-radius: 20px;
+	background-color: #21a7dd;
+	margin-top: 50px;
+}
+
+.topic-in .topic-kiri .content .last p{
+	font-size: 20px;
+	margin-bottom: 2px;
+}
+
+.topic-in .topic-kiri .content-foot .total{
+	border: 1px solid #21a7dd;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border-radius: 10px;
+	background-color: #21a7dd;
+	margin-top: 50px;
+}
+
+.topic-in .topic-kiri .content-foot .total p{
+	font-size: 20px;
+	margin-bottom: 2px;
+	padding-right: 10px;
+}
+
+.topic-in .topic-kanan{
+	background-color: white;
+	border-radius: 15px;
+	width: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.topic-in .topic-kanan .title{
+	text-align: center;
+	padding: 20px 30px 0px 30px;
+}
+
+.topic-in .topic-kanan .content{
+	padding: 0px 25px 20px 25px;
+}
+
+.topic-in .topic-kanan .content .form-in{
+	display: flex;
+	justify-content: space-between;
+}
+
+.topic-in .topic-kanan .content .hr1{
+	border: 1px solid #21a7dd;
+}
+
+.topic-in .topic-kanan .content .form-in .kiri h5{
+	font-size: 18px;
+}
+
+.topic-in .topic-kanan .content .form-in .kiri p{
+	color: lightgrey;
+	font-size: 14px;
+}
+
+.topic-in .topic-kanan .content .form-in .kanan{
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	margin-top: -25px;
+}
+
+.topic-in .topic-kanan .content .form-in .kanan .img{
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.topic-in .topic-kanan .content .form-in .kanan .img img{
+	width: 25px;
+	height: 25px;
+}
+
+.topic-in .topic-kanan .content .form-in .kanan .center{
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.topic-in .topic-kanan .content .form-in .kanan p{
+	color: lightgrey;
+}
+
+.topic-in .topic-kanan .content hr{
+	margin-top: -5px;
+	border: 1px solid blue;
+}
+
+.topic-in .topic-kanan .content .content-in{
+	display: flex;
+	justify-content: space-between;
+}
+
+.topic-in .topic-kanan .content .content-in .kgimg{
+	width: 30%;
+	padding-top: 13px;
+}
+
+.topic-in .topic-kanan .content .content-in .kgimg img{
+	width: 90px;
+	height: 90px;
+}
+
+.topic-in .topic-kanan .content .content-in .text{
+	width: 70%;
+}
+
+.topic-in .topic-kanan .content .content-in .text p{
+	color: lightgrey;
+}
+
+.topic-in .topic-kanan .content .text-in{
+	font-weight: bold;
+}
+
+.topic-in .topic-kanan .content .last{
+	border: 1px solid #21a7dd;
+	width: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin-left: 300px;
+	border-radius: 20px;
+	background-color: #21a7dd;
+	margin-top: 50px;
+}
+
+.topic-in .topic-kanan .content .last p{
+	font-size: 20px;
+	margin-bottom: 2px;
+}
+
+.topic-in .topic-kanan .content-foot .total{
+	border: 1px solid #21a7dd;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	border-radius: 10px;
+	background-color: #21a7dd;
+	margin-top: 64px;
+}
+
+.topic-in .topic-kanan .content-foot .total p{
+	font-size: 20px;
+	margin-bottom: 2px;
+	padding-right: 10px;
+}

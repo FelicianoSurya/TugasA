@@ -1,0 +1,143 @@
+*{
+	font-family: coolvetica;
+}
+.flex{
+	display: flex;
+}
+.background{
+	background-color: #ebebeb;
+	width: 100%;
+	height: 100%;
+}
+.box-top1{
+	padding: 30px 20px 0px 30px;
+}
+.box-top1 .annisa{
+	width: 270px;
+	height: 180px;
+}
+.box-top1 .annisa1{
+	width: 80px;
+	height: 80px;
+}
+.box-top2{
+	padding: 20px 20px 0px 0px;
+}
+.box-top2 .text1{
+	font-size: 35px;
+	color: #605252;
+}
+.box-top2 .text2{
+	font-weight: 20px;
+	color: #605252;
+}
+.box-top2 .text3{
+	color: #ed145b;
+	font-size: 20px;
+}
+.box-top2 .text4{
+	font-size: 20px;
+}
+.box-top2 .text5{
+	font-size: 30px;
+
+}
+.box-top2 .button{
+	font-size: 20px;
+	color: white;
+	background-color: #6dcff6;
+	width: 140px;
+	height: 35px;
+	border: none;
+	margin-top: 20px;
+}
+.kanan{
+	margin-right: 20px;
+}
+.map{
+	width: 400px;
+	height: 200px;
+}
+.border1{
+	border: 4px solid grey;
+	margin: 30px;
+	width: 320px;
+}
+.border1 .boy{
+	width: 50px;
+	height: 50px;
+}
+.border1 .jarak{
+	padding: 10px 10px 0px 10px;
+}
+.border1 .jarak .box{
+	margin-left: 10px;
+}
+.border1 .jarak .pembatas{
+	background-color: lightgrey;
+	width: 3px;
+	height: 45px;
+	margin-left: 15px;
+	margin-top: 3px;
+}
+.box2{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+.box2 .sosmed{
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
+}
+.hr{
+	border: 0.5px solid black;
+}
+.box3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.box3 .kotak{
+	margin: 0px 15px;
+}
+.box3 .kotak .pembatas{
+	background-color: lightgrey;
+	width: 3px;
+	height: 45px;
+	margin-top: 3px;	
+}
+.box3 .kotak .jarak1{
+	margin: 0px 10px;
+}
+.border2{
+	border: 4px solid grey;
+	margin: 30px 0px;
+	width: 650px;
+	padding: 10px 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.border2 .word{
+	font-size: 20px;
+}
+.border2 .kotak1{
+	border-radius: 5px;
+	background-color: white;
+	padding: 18px 15px 10px 15px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.border2 .kotak1 .img1{
+	width: 40px;
+	height: 40px;
+}
+.border2 .kotak1 .wash1{
+	margin-top: 5px;
+}

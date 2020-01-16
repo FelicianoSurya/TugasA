@@ -1,0 +1,132 @@
+*{
+	font-family: coolvetica;
+}
+.flex-end{
+	display: flex;
+	justify-content: flex-end;
+}
+.header{
+	font-size: 60px;
+	width: 100%;
+	text-align: center;
+	padding: 40px 0px;
+}
+.box{
+}
+.box2{
+	padding: 20px 60px;
+	margin-top: 40px;
+	line-height: 45px;
+}
+.box2 .flex{
+	display: flex;
+	align-items: center;
+}
+.box2 .flex .text1{
+	font-size: 45px;
+	width: 20%;
+	height: 20%;
+}
+.box2 .flex .text2{
+	width: 5%;
+	font-size: 45px;
+}
+.box2 .flex .text3{
+	color: #a1a1a1;
+	font-size: 45px;
+	width: 50%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.box2 .box-in{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+}
+.box2 .box-in .border1{
+	border: 1px solid;
+	padding: 20px 30px;
+	width: 48%;
+	text-align: center;
+	border-radius: 30px;
+}
+.box2 .box-in .border1 .title{
+	font-size: 50px;
+	color: #6dcff6;
+}
+.box2 .box-in .border1 .border-in{
+	margin-top: 40px;
+	line-height: 40px;
+}
+.box2 .box-in .border1 .border-in .text1{
+	font-size: 45px;
+}
+.box2 .box-in .border1 .border-in .text2{
+	font-size: 40px;
+	color: #a1a1a1;
+}
+.box2 .teks{
+	font-size: 50px;
+	color: #6dcff6;	
+}
+.box2 .content{
+	margin-top: 50px;
+	line-height: 45px;
+}
+.box2 .content .content-in{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.box2 .content .content-in p{
+	font-size: 50px;
+}
+.box3{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 60px;
+	padding: 20px 60px;
+	background-color: #6dcff6;
+	border-radius: 35px;
+	margin-top: -20px;
+	margin-bottom: 300px;
+}
+.top{
+	margin-top: 40px;
+}
+.footer{
+	width: 100%;
+	background-color: white;
+	box-shadow: 5px 0px 10px 2px;
+	text-align: center;
+	display: flex;
+	padding:20px;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+}
+.box4{
+	padding:10px;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.box4 .img2{
+	width: 100px;
+	height: 100px;
+}
+.box4 .text{
+	color:  #6dcff6;
+	font-size: 35px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
+	font-size: 35px;
+	margin-top: 5px;
+}

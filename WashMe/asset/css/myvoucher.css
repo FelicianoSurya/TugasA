@@ -1,0 +1,59 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 20px 40px;
+	display: flex;
+	align-items: center;
+}
+.header .img{
+	width: 80px;
+	height: 80px;
+}
+.header .title{
+	font-size: 60px;
+	width: 80%;
+	text-align: center;
+}
+.hr{
+	border: 1px solid;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.flex1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.body{
+	padding: 20px 50px;
+}
+.body .img{
+	width: 100%;
+}
+.body .text{
+	font-size: 50px;
+	line-height: 60px;
+}
+.body .flex1 .flex .img1{
+	width: 80px;
+	height: 80px;
+}
+.body .flex1 .flex .text2{
+	font-size: 40px;
+	color: #605252;
+	margin-left: 15px;
+}
+.body .flex1 .button{
+	color: white;
+	background-color: #6dcff6;
+	border: none;
+	border-radius: 35px;
+	padding: 10px 40px;
+	font-size: 50px;
+}
+.top{
+	margin-top: 20px;
+}

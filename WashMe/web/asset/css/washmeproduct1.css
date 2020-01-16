@@ -1,0 +1,238 @@
+*{
+	font-family: coolvetica;
+	outline: none;
+}
+.body{
+	display: flex;
+	margin:0;
+	padding:0 !important;
+	width: 100%;
+	height: 100%;
+}
+.left{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background:#120f2b;
+}
+
+.left .top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background:  #ebebeb;
+	padding:5px;
+	padding-left:10px;
+}
+
+.left .top .logo{
+	width: 30%;
+}
+
+.left .top .logo img{
+	width: 60px;
+	height: 60px;
+}
+
+.left .top .topic{
+	width: 70%;
+}
+.left .top .topic p{
+	margin:0;
+	font-size: 40px;
+	color: #0c354f;
+}
+
+.left .bot{
+	display: flex;
+	flex-direction: column;
+}
+
+.left .bot p{
+	margin:0;
+	color:white;
+}
+
+.left .bot .info-user{
+	display: flex;
+	background:#5ba9cd;
+	margin-top:40px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.left .bot .info-user .picture{
+	width: 25%;
+}
+
+.left .bot .info-user .picture img{
+	width: 50px;
+	height: 50px;
+}
+
+.left .bot .info-user .info{
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 15px;
+}
+
+.left .bot .info-user .info .information{
+	display: flex;
+}
+
+.left .bot .info-user .info .information img{
+	width: 25px;
+	height: 25px;
+}
+
+.name{
+	font-size: 20px;
+}
+.coin{
+	margin-left:10px;
+}
+
+.status{
+	margin-left:10px;
+}
+
+.menu{
+	display: flex;
+	flex-direction: column;
+}
+
+.menu1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:10px;
+	padding-left: 20px;
+	margin-top: 30px;
+}
+
+.menu1:hover{
+	background:#5ba9cd;
+	cursor: pointer;
+}
+
+.menu1 .logo{
+	width: 10%;
+}
+
+.menu1 .nama{
+	width: 90%;
+	padding-left:10px;
+	font-size: 18px;
+}
+
+.menu1 .logo img{
+	width: 25px;
+}
+
+.menu2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:10px;
+	padding-left: 20px;
+}
+
+.menu2:hover{
+	background:#5ba9cd;
+	cursor: pointer;
+}
+
+.menu2 .logo{
+	width: 10%;
+}
+
+.menu2 .nama{
+	width: 90%;
+	padding-left:10px;
+	font-size: 18px;
+}
+
+.menu2 .logo img{
+	width: 25px;
+}
+
+.logout{
+	margin-top: 60px;
+	background-color: #ed145b;
+}
+.flex{
+	display: flex;
+}
+.right{
+	background-color: #ebebeb;
+	width: 80%;
+	height: 100%;
+	padding: 20px 50px;
+}
+.text1{
+	color: #605252;
+	font-size: 20px;
+}
+.text2{
+	color: #ed145b;
+	font-size: 20px;
+}
+.border1{
+	margin-top: 20px;
+	width: 240px;
+	border: 1px solid lightgrey;
+}
+.border1 .setrika1{
+	width: 100%;
+	height: 220px;
+}
+.border1 .setrika2{
+	width: 70px;
+	height: 60px;
+	margin-top: 10px;
+}
+.border1 .setrika3{
+	width: 70px;
+	height: 60px;
+	margin: 10px 14px 0px 14px;
+}
+.border2{
+	margin-top: 20px;
+	width: 700px;
+	border: 1px solid lightgrey;
+	padding: 10px;
+}
+.border2 .text3{
+	color: #605252;
+	font-size: 25px;
+}
+.border2 .harga{
+	color: #ed145b;
+	font-size: 30px;
+}
+.border2 .star{
+	width: 40px;
+	height: 40px;
+}
+.flex1{
+	display: flex;
+	align-items: center;
+}
+.border2 .text4{
+	color: #605252;
+	font-size: 15px;
+	margin-left: 10px;
+}
+.border2 .text5{
+	color: #6dcff6;
+	font-size: 20px;
+}
+.border2 .text6{
+	color: #605252;
+	font-size: 20px;
+	margin-left: 5px;
+}

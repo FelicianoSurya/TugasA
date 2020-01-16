@@ -1,0 +1,91 @@
+*{
+	font-family: coolvetica;
+}
+.background{
+	background-image: url("../images/laundry-keren.jpg");
+	height: 500px;
+	padding: 20px 30px;
+}
+.background .back{
+	background-color: black;
+	border-radius: 100%;
+	opacity: 0.7;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+}
+.background .back .img{
+	width: 55px;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.padding{
+	padding: 10px 30px;
+}
+.flex .text{
+	width:85%;
+	font-size: 55px;
+}
+.flex .border-mid{
+	border-radius: 10px;
+	width: 90px;
+	height: 90px;
+	margin-top:-200px;
+	position: relative;
+}
+.flex .border-mid .bg{
+	width: 90px;
+	height: 90px;
+	background-color:black;
+	opacity: 0.5;
+	position: absolute;
+}
+.flex .border-mid .img{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 6px;
+	left: 10px;
+}
+.jarak{
+	font-size: 35px;
+	margin-top: -20px;
+}
+.hr{
+	border: 1px solid lightgrey;
+	margin-top: -5px;
+}
+.box1{	
+}
+.box1 .img{
+	width: 70px;
+	height: 70px;
+}
+.box1 .text1{
+	color: #6dcff6;
+	margin-left: 15px;
+	font-size: 35px;
+}
+.box1 .text2{
+	color: #605252;
+	margin-left: 15px;
+	font-size: 30px;
+}
+.background1{
+	background-color: #ebebeb;
+	height: 350px;
+	text-align: center;
+}
+.background1 .button{
+	background-color: #ed145b;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	padding: 10px 30px;
+	font-size: 40px;
+	margin-top: 40px;
+}

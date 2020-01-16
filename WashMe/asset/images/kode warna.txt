@@ -1,0 +1,19 @@
+blue #6dcff6 #88d7f7
+blue profile #5ba9cd
+blue questions #21a7dd
+abu-abu #605252
+abu-abu muda #ebebeb
+navy #120f2b
+border contact us #e1e1e1
+pink #ed145b
+pink muda #f16a96
+blue washme #0c354f
+garis abu-abu #a1a1a1
+Merah tua #ff000c
+
+warna chart
+ungu #845EC2
+ungu muda #D65DB1
+pink #FF6F91
+orange #FF9671
+kuning #FFC75F

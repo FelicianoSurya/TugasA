@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: coolvetica;
+	outline: none;
+}
+.container-fluid-fullscreen{
+	width: 100%;
+	height: 100%;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.header .topic-top{
+	width: 100%;
+}
+.header .topic-top header{
+	margin-top: -200px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .topic-top header .logo img{
+	width: 1000px;
+	height: 1000px;
+}
+.content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: -280px;
+}
+.content .content-in{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid white;
+	background-color: white;
+	width: 100%;
+	border-radius: 50px 50px 0px 0px;
+	padding-top: 10px;
+}
+.content-in .content-top{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+.content-in .content-top img{
+	width: 105px;
+	height: 12px;
+}
+.content-in .content-mid{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 30px 0px 30px;
+	margin-bottom: -15px;
+}
+.content-in .content-mid .nama p{
+	font-size: 50px;
+}
+.content-in .content-mid .alamat{
+	margin-top: -15px;
+}
+.content-in .content-mid .alamat p{
+	font-size: 40px;
+}
+.hr1{
+	width: 100%;
+	border: 0.5px solid black;
+}
+.content-in .kotak-besar{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 30px 0px 30px;
+}
+.content-in .kotak-kiri{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.content-in .kotak-besar .kotak-kiri img{
+	width: 160px;
+	height: 160px;
+}
+.content-in .kotak-besar .kotak-kanan{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.content-in .kotak-besar .kotak-kanan .teks1{
+	font-size: 50px;
+	color: grey;
+	margin-top: 20px;
+}
+.content-in .kotak-besar .kotak-kanan .naik{
+	font-size: 50px;
+	margin-top: -20px;
+	color: grey;
+}
+.content-in .kotak-besar .kotak-kanan .teks{
+	font-size: 50px;
+	color: black;
+	margin-top: 20px;
+}
+.content-in .kotak-besar .kotak-kanan .naik1{
+	font-size: 50px;
+	margin-top: -20px;
+	color: black;
+}

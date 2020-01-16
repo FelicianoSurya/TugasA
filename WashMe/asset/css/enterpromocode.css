@@ -1,0 +1,43 @@
+*{
+	font-family: coolvetica;
+}
+.content{
+	padding: 40px 50px;
+}
+.content .img{
+	width: 80px;
+	height: 80px;
+}
+.content .top{
+	margin-top: 50px;
+	line-height: 40px;
+}
+.content .top .img1{
+	width: 200px;
+	height: 200px;
+}
+.content .top .text{
+	font-size: 50px;
+}
+.content .top .text1{
+	font-size: 45px;
+	color: #605252;
+}
+.content .top .hr{
+	border: 1px solid;
+	margin-top: 80px;
+}
+.top1{
+	margin-top: 40px;
+}
+.footer{
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+	width: 100%;
+	background-color: #ed145b;
+	padding: 30px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}

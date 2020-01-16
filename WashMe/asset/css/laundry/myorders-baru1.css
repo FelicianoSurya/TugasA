@@ -1,0 +1,113 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 20px 40px;
+	display: flex;
+	align-items: center;
+}
+.header p{
+	font-size: 60px;
+	width: 90%;
+	text-align: center;
+	margin: 0;
+}
+.header img{
+	width: 100px;
+	height: 100px;
+}
+.content{
+	font-size: 50px;
+	width: 100%;
+	text-align: center;
+}
+.body{
+	padding: 20px 40px;
+	height: 1800px;
+}
+.body .flex1 .box{
+	border: 1px solid;
+	padding: 20px 30px 50px 30px;
+	width: 48%;
+	border-radius: 20px;
+	text-align: center;
+}
+.body .flex1 .box .button{
+	background-color: #f16a96;
+	padding: 0px 30px;
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 45px;
+	border: none;
+	border-radius: 40px;
+}
+.body .flex1 .box .img{
+	width: 160px;
+	height: 160px;
+	margin-top: 30px;
+}
+.body .flex1 .box .box-in{
+	line-height: 45px;
+	margin-top: 30px;
+}
+.body .flex1 .box .box-in .text{
+	font-size: 45px;
+	color: #a1a1a1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.body .flex1 .box .button1{
+	background-color: #6dcff6;
+	color: white;
+	width: 49%;
+	margin-top: 20px;
+	border: none;
+	border-radius: 40px;
+	padding: 0px 30px;
+	font-size: 40px;
+}
+.body .flex1 .box .button2{
+	background-color: #ff000c;
+	color: white;
+	width: 49%;
+	margin-top: 20px;
+	border: none;
+	border-radius: 40px;
+	padding: 0px 30px;
+	font-size: 40px;
+}
+.footer{
+	width: 100%;
+	background-color: white;
+	box-shadow: 5px 0px 10px 2px;
+	text-align: center;
+	display: flex;
+	padding:20px;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+}
+.box4{
+	padding:10px;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.box4 .img2{
+	width: 100px;
+	height: 100px;
+}
+.box4 .text{
+	color:  #6dcff6;
+	font-size: 35px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
+	font-size: 35px;
+	margin-top: 5px;
+}

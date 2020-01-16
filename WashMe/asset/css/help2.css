@@ -1,0 +1,31 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 20px 40px;
+	display: flex;
+	align-items: center;
+}
+.header .img{
+	width: 80px;
+	height: 80px;
+}
+.header .title{
+	font-size: 60px;
+	width: 80%;
+	text-align: center;
+}
+.hr{
+	border: 1px solid;
+}
+.body{
+	padding: 30px 50px;
+	line-height: 60px;
+}
+.body .text{
+	font-size: 60px;
+}
+.body .text1{
+	font-size: 45px;
+	color: #605252;
+}

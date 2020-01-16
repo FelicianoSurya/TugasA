@@ -1,0 +1,144 @@
+	*{
+		font-family: coolvetica;
+		overflow: hidden;
+		outline: none;
+	}
+
+	html,body{
+		box-sizing: border-box;
+		margin:0;
+		padding:0;
+		max-width: 100%;
+	}
+
+	.body{
+		display: flex;
+		margin:0;
+		padding:0 !important;
+		width: 100%;
+		height: 100%;
+	}
+
+	.box-right{
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		padding:50px;
+		padding-left:120px;
+		background-color: #ebebeb;
+	}
+
+	.box-language{
+		display: flex;
+		align-items: center;
+		background:white;
+		padding:10px;
+	}
+
+	.language p{
+		margin:0;
+		font-size: 20px;
+	}
+
+	.language{
+		padding: 10px;
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 60px;
+		align-items: center;
+	}
+	.language .img{
+		width: 30px;
+		height: 30px;
+		margin-left: 10px;
+	}
+
+	.flex{
+		display: flex;
+	}
+	.box{
+		border: 2px solid #efefef;
+		border-radius: 10px;
+		background-color: white;
+		padding: 10px 30px;
+		width: 400px;
+		height: 210px;
+		margin:20px;
+		margin-left: 0;
+	}
+	.box p{
+		margin:0;
+	}
+	.a{
+		margin-left:40px;
+	}
+
+	.box .text1{
+		font-size: 30px;
+	}
+	.jarak{
+		margin-top: 10px;
+	}
+	.jarak2{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.jarak3{
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.box .text2{
+		font-size: 20px;
+		color: #605252;
+		text-align: center;
+		line-height: 23px;
+		justify-content: center;
+		align-items: center;
+	}
+	.box .button{
+		background-color: #ed145b;
+		color: white;
+		font-size: 25px;
+		padding: 0px 30px;
+		border: none;
+		border-radius: 10px;
+		margin-top: 25px;
+		cursor: pointer;
+	}
+	.box .button2{
+		background-color: #ed145b;
+		color: white;
+		font-size: 25px;
+		padding: 0px 30px;
+		border: none;
+		border-radius: 10px;
+		margin-top: 40px;
+		cursor: pointer;
+	}
+	.box-in{
+		display: flex;
+		align-items: center;
+		margin-top: 20px;
+	}
+	.img2{
+		width: 60px;
+		height: 40px;
+	}
+	.kiri{
+		margin-left: 20px;
+	}
+
+	.modal input{
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		outline: none;
+	}
+
+	.modal input:focus{
+		border-bottom-color: red
+	}
+
+	.i{
+		background:#5ba9cd;
+	}

@@ -1,0 +1,173 @@
+@font-face{
+	font-family: coolvetica;
+	src :url('../font/coolvetica rg.ttf');
+}
+
+*{
+	box-sizing: border-box;
+	outline: none;
+	max-width: 100%;
+	font-family: coolvetica;
+	overflow: hidden;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	padding:0;
+	margin:0;
+	background-color:#6dcff6;
+}
+
+#body{
+	display: flex;
+	flex-direction: column;
+	background-color: #6dcff6;
+	width: 100%;
+	height: 100%;
+}
+
+#body .top{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding:20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#body .top .left{
+	padding:10px;
+}
+
+#body .top .left .content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#body .top .left .content img{
+	width: 80px;
+	height: 80px;
+}
+
+#body .top .left .content p{
+	font-size: 45px;
+	padding-left:20px;
+	margin:0;
+	color:#0c354f;
+}
+
+.top .right .content{
+	display: flex;
+}
+
+.top .right{
+	display: flex;
+	padding-top:20px;
+	justify-content: center;
+}
+
+.top .right .content button{
+	width: 120px;
+	height: 35px;
+	font-size: 20px;
+	margin:5px;
+	color:white;
+	cursor: pointer;
+}
+.top .right .content a button{
+	background-color: transparent;
+	border:2px solid;
+}
+.top .right .content .a{
+	background-color: #0c354f;
+	border:none;
+}
+
+.bot{
+	display: flex;
+}
+
+.white{
+	color:white;
+	margin:0;
+}
+
+.color{
+	color:#0c354f;
+}
+
+.bot .left{
+	padding-top:120px;
+	padding-left:50px;
+	width: 60%;
+}
+
+.bot .left .content p{
+	font-size: 80px;
+}
+
+.bot .right{
+	width: 40%;
+	margin-left:50px;
+	margin-right:70px;
+	margin-top:20px;
+}
+
+.bot .right .box{
+	width:100%;
+	background-color: white;
+	padding:20px;
+}
+
+.bot .right .box label{
+	font-size: 25px;
+	color: black;
+}
+
+.bot .right .box input{
+	width: 100%;
+	font-size: 20px;
+}
+
+.form1{
+	margin-top:20px;
+}
+
+.box .button{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.box .button input{
+	width: 100%;
+	height: 40px;
+	color:white;
+	font-size:20px;
+	background-color:#0c354f;
+	border:none; 
+}
+
+.box .button a{
+	font-size:20px;
+	color:black;
+}
+
+.box .connect{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:20px;
+	font-size: 20px;
+}
+
+.medsos{
+	display: flex;
+}
+
+.medsos img{
+	width: 40px;
+	height: 40px;
+	margin:10px;
+}

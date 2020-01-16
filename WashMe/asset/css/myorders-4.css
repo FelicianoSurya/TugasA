@@ -1,0 +1,116 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	font-size: 60px;
+	color: #605252;
+	text-align: center;
+	padding: 20px;
+}
+.body{
+	padding: 30px 50px;
+	height: 2000px;
+}
+.body .text{
+	font-size: 50px;
+}
+.body .text1{
+	font-size: 35px;
+	color: #a1a1a1;
+}
+.body .border1{
+	border: 1px solid;
+	padding: 10px 40px;
+	display: flex;
+	align-items: center;
+	border-radius: 30px;
+}
+.body .border1 .img{
+	width: 120px;
+	height: 120px;
+}
+.body .border1 .teks{
+	font-size: 50px;
+	margin: 0px 20px;
+}
+.body .border1 .teks1{
+	font-size: 50px;
+	color: #a1a1a1;
+	margin: 0;
+}
+.body .box{
+	margin-top: 70px;	
+}
+.body .box .text2{
+	font-size: 45px;
+}
+.body .box .box-in{
+	display: flex;
+	align-items: center;
+}
+.body .box .box-in .img{
+	width: 120px;
+	height: 120px;
+}
+.body .box .box-in .teks{
+	font-size: 45px;
+	width: 100%;
+	margin-left: 50px;
+}
+.body .box .box-in .box1{
+	width: 30%;
+	text-align: center;
+}
+.body .box .box-in .box1 .img1{
+	width: 100px;
+	height: 100px;
+}
+.body .box .box-in .box1 .teks1{
+	font-size: 35px;
+	color: #a1a1a1;
+}
+.body .box .button{
+	text-align: center;
+	margin-top: 40px;
+}
+.body .box .button button{
+	background-color: #6dcff6;
+	color: white;
+	font-size: 45px;
+	border-radius: 30px;
+	border: none;
+	padding: 10px 40px;
+}
+.footer{
+	width: 100%;
+	background-color: white;
+	box-shadow: 5px 0px 10px 2px;
+	text-align: center;
+	display: flex;
+	padding:20px;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	bottom: 0px;
+	z-index:100;
+}
+.box4{
+	padding:10px;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.box4 .img2{
+	width: 100px;
+	height: 100px;
+}
+.box4 .text{
+	color:  #6dcff6;
+	font-size: 35px;
+	margin-top: 5px;
+}
+.box4 .text1{
+	color:  grey;
+	font-size: 35px;
+	margin-top: 5px;
+}

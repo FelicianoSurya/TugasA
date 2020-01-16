@@ -1,0 +1,92 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	background-image: url("../images/laundry-keren1.png");
+	width: 100%;
+	padding: 40px 70px;
+	background-repeat: no-repeat;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.header .flex .img{
+	width: 80px;
+	height: 80px;
+
+}
+.header .flex .border{
+	background-color: black;
+	border-radius: 40px;
+	padding: 0px 30px;
+	margin-left: 30px;
+	font-size: 40px;
+	color: white;
+}
+.header .nama{
+	font-size: 70px;
+	color: white;
+	margin-top: 70px;
+}
+.header .alamat{
+	font-size: 45px;
+	color: white;
+}
+.body{
+	padding: 40px 50px;
+	background-color: #ebebeb;
+}
+.flex1{
+	display: flex;
+	justify-content: space-between;
+}
+.body .flex1 .box{
+	background-color: white;
+	width: 48%;
+}
+.body .flex1 .box .img{
+	width: 100%;
+	height: 400px;
+}
+.body .flex1 .box .content{
+	padding: 20px;
+	line-height: 45px;
+}
+.body .flex1 .box .content .text{
+	font-size: 40px;
+}
+.body .flex1 .box .content .harga{
+	font-size: 40px;
+	color: #ed145b;
+}
+.flex-end{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.body .flex1 .box .content .flex-end .star{
+	width: 40px;
+	height: 40px;
+}
+.body .flex1 .box .content .flex-end .text1{
+	font-size: 40px;
+	margin: 0;
+	margin-left: 15px;
+}
+.body .flex1 .box .content .flex-end .img1{
+	width: 45px;
+	height: 45px;
+}
+.body .flex1 .box .content .flex-end .kota{
+	font-size: 40px;
+	color: #605252;
+	margin: 0;
+	margin-left: 15px;
+}
+.top{
+	margin-top: 20px;
+}
+.top1{
+	margin-top: 40px;
+}

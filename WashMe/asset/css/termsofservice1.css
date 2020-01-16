@@ -1,0 +1,44 @@
+*{
+	font-family: coolvetica;
+}
+.header{
+	padding: 20px 40px;
+	display: flex;
+	align-items: center;
+}
+.header .img{
+	width: 80px;
+	height: 80px;
+}
+.header .title{
+	font-size: 60px;
+	width: 100%;
+	text-align: center;
+}
+.box{
+	background-color: #6dcff6;
+	color: white;
+	font-size: 70px;
+	padding: 30px 50px;
+	line-height: 70px;
+}
+.box2{
+	padding: 20px 40px;
+	margin-top: 80px;
+}
+.box2 .box-in{
+	background-color: #6dcff6;
+	border-radius: 30px;
+	padding: 20px 40px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 50px;
+	color: white;
+}
+.box2 .box-in img{
+	width: 80px;
+	height: 80px;
+}
+.top{
+	margin-top: 50px;
+}
