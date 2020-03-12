@@ -7,8 +7,7 @@ export default class App extends Component
   {
     return(
       <View>
-        <Text style={{fontSize:20}}>Fleren Picestelia</Text>
-        <TextInput placeholder="hai"></TextInput>
+        <image source={require('assets/images/WashMeLogo_CMYK.png')}></image>
       </View>
     );
   }
